@@ -24,6 +24,21 @@
       "title": "react",
       "body": "react is...",
       "id": 5
+    },
+    {
+      "title": "vue",
+      "body": "vue is...",
+      "id": 6
+    },
+    {
+      "title": "next",
+      "body": "next is...",
+      "id": 7
+    },
+    {
+      "title": "nuxt",
+      "body": "nuxt..",
+      "id": 8
     }
   ],
   "posts": [

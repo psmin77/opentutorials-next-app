@@ -23,8 +23,10 @@ export default function Create() {
             .then((resp) => resp.json())
             .then((result) => {
               console.log(result);
+
               const lastId = result.id;
               router.push(`/read/${lastId}`);
+              router.refresh();
             });
         }}
       >
