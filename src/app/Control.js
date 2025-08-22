@@ -5,7 +5,7 @@ import { useParams } from "next/navigation";
 export function Control() {
   const params = useParams();
   const id = params.id;
-  console.log("params id: ", id);
+  console.log("Control.js > params.id: ", id);
 
   return (
     <ul>
@@ -15,7 +15,7 @@ export function Control() {
       {id ? (
         <>
           <li>
-            <Link href="/update/1">Update</Link>
+            <Link href={`/update/${id}`}>Update</Link>
           </li>
           <li>
             <input type="button" value="delete" />
